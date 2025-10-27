@@ -1,8 +1,6 @@
-
 <footer class="footer bg-dark text-light pt-5 pb-3">
   <div class="container text-center text-md-start">
     <div class="row">
-    
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase fw-bold text-success">LokSamarpan Trust</h5>
         <p class="small">
@@ -14,11 +12,11 @@
       <div class="col-md-4 mb-4">
         <h6 class="text-uppercase fw-bold text-success">Quick Links</h6>
         <ul class="list-unstyled">
-          <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
-          <li><a href="#projects" class="text-light text-decoration-none">Our Projects</a></li>
-          <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
-          <li><a href="#volunteer" class="text-light text-decoration-none">Volunteer</a></li>
-          <li><a href="#donate" class="text-light text-decoration-none">Donate Now</a></li>
+          <li><a href="/loksamarpan/#about" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="/loksamarpan/#projects" class="text-light text-decoration-none">Our Projects</a></li>
+          <li><a href="/loksamarpan/#contact" class="text-light text-decoration-none">Contact</a></li>
+          <li><a href="/loksamarpan/#volunteer" class="text-light text-decoration-none">Volunteer</a></li>
+          <li><a href="/loksamarpan/#donate" class="text-light text-decoration-none">Donate Now</a></li>
         </ul>
       </div>
 
@@ -31,6 +29,7 @@
     </div>
 
     <hr class="border-light">
+
     <div class="text-center">
       <div class="mb-3">
         <a href="#" class="text-success me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
@@ -38,10 +37,9 @@
         <a href="#" class="text-success me-3"><i class="fab fa-instagram fa-lg"></i></a>
         <a href="#" class="text-success"><i class="fab fa-linkedin-in fa-lg"></i></a>
       </div>
-     <p class="mb-0 small text-center">
-  &copy; 2025 <strong>LokSamarpan Trust</strong>. All rights reserved.
-</p>
+      <p class="mb-0 small text-center">
+        &copy; 2025 <strong>LokSamarpan Trust</strong>. All rights reserved.
+      </p>
     </div>
   </div>
 </footer>
-
