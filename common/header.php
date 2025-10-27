@@ -1,3 +1,9 @@
+<?php
+header("X-Content-Type-Options: nosniff");
+header("X-Frame-Options: SAMEORIGIN");
+header("Referrer-Policy: no-referrer-when-downgrade");
+header("Access-Control-Allow-Origin: *");
+?>
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">

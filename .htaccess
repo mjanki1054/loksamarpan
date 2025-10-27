@@ -1,11 +1,14 @@
+# LokSamarpan Trust .htaccess
+# Safe for Render / Apache servers
+
+DirectoryIndex index.php index.html
+Options +FollowSymLinks
+AllowOverride All
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . index.php [L]
+  RewriteRule ^(.*)$ $1.php [L,QSA]
 </IfModule>
-
-# Allow static file access
-<FilesMatch "\.(css|js|jpg|jpeg|png|gif|svg)$">
-  Header set Access-Control-Allow-Origin "*"
-</FilesMatch>

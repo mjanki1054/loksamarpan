@@ -11,7 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <?php include 'common/header.php'?>
   <!-- style -->
-  <link rel="stylesheet" href="/CSS/style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
 <section class="section bg-light" id="news">
