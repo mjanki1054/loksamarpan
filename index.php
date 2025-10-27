@@ -1,3 +1,6 @@
+<!-- Navbar -->
+<?php include 'common/header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +16,6 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <?php include 'common/header.php'; ?>
 
  <!-- Hero Section  -->
 <section class="hero position-relative">
