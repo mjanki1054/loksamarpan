@@ -1,6 +1,3 @@
-<!-- Navbar -->
-<?php include 'common/header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +9,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <!-- style -->
-  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
-
+  
+<!-- Navbar -->
+<?php include 'common/header.php'; ?>
 
  <!-- Hero Section  -->
 <section class="hero position-relative">
