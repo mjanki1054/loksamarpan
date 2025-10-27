@@ -14,7 +14,7 @@
 <body>
 
   <!-- Navbar -->
-  <?php include 'common/header.php'; ?>
+  <?php include '../common/header.php'; ?>
 
   <section class="py-5" id="career-apply">
     <div class="container">

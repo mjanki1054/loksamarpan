@@ -14,7 +14,7 @@
 <body>
 
   <!-- Navbar -->
-  <?php include 'common/header.php'; ?> 
+  <?php include '../common/header.php'; ?>
 
   <?php include 'components/about.php'; ?> 
 

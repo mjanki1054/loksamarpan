@@ -1,14 +1,18 @@
-# LokSamarpan Trust .htaccess
-# Safe for Render / Apache servers
-
-DirectoryIndex index.php index.html
-Options +FollowSymLinks
-AllowOverride All
-
+# Enable URL rewriting
 <IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.*)$ $1.php [L,QSA]
+RewriteEngine On
+RewriteBase /loksamarpan/
+
+# Redirect all .php URLs without extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
 </IfModule>
+
+# Enable headers module safely
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Default index
+DirectoryIndex index.php
