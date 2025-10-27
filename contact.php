@@ -10,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <?php include 'common/header.php'?>
   <!-- style -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 <body>
 <section class="section py-5" id="contact" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9);">

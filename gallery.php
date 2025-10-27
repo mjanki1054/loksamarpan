@@ -10,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <?php include 'common/header.php'?>
   <!-- style -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 <body>
 <section class="section bg-light" id="gallery">
@@ -26,7 +26,7 @@
     <div class="row g-4">
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/education.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 1" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/education.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 1" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Education Program</div>
           </div>
@@ -35,7 +35,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/health.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 2" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/health.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 2" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Health Camp</div>
           </div>
@@ -44,7 +44,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/agriculture.png" class="img-fluid rounded shadow-sm" alt="Gallery 3" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/agriculture.png" class="img-fluid rounded shadow-sm" alt="Gallery 3" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Agriculture Training</div>
           </div>
@@ -53,7 +53,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/livelihood.png" class="img-fluid rounded shadow-sm" alt="Gallery 4" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/livelihood.png" class="img-fluid rounded shadow-sm" alt="Gallery 4" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Livelihood Support</div>
           </div>
@@ -62,7 +62,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/energy.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 5" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/energy.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 5" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Renewable Energy</div>
           </div>
@@ -71,7 +71,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="gallery-item">
-          <img src="Asset/environment.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 6" style="height: 280px; object-fit: cover;">
+          <img src="/Asset/environment.jpg" class="img-fluid rounded shadow-sm" alt="Gallery 6" style="height: 280px; object-fit: cover;">
           <div class="overlay">
             <div class="overlay-text">Community Meeting</div>
           </div>

@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <!-- style -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 <body>
 
@@ -21,7 +21,7 @@
   <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Asset/energy.jpg" class="d-block w-100" alt="Serving Humanity">
+        <img src="/Asset/energy.jpg" class="d-block w-100" alt="Serving Humanity">
         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
           <h1 class="fw-bold text-light">LokSamarpan — Serving Humanity with Love</h1>
           <p class="lead text-light">Empowering communities through education, health, renewable energy, and social welfare initiatives.</p>

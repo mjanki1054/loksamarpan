@@ -10,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <?php include 'common/header.php'?>
   <!-- style -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 <body>
 <section class="section" id="team">
@@ -27,7 +27,7 @@
     <div class="row g-4 justify-content-center">
       <div class="col-md-4 col-sm-6">
         <div class="team-card">
-          <img src="Asset/profile.jpg" alt="Team Member 1" class="img-fluid rounded-circle mb-3 shadow">
+          <img src="/Asset/profile.jpg" alt="Team Member 1" class="img-fluid rounded-circle mb-3 shadow">
           <h5 class="fw-bold mb-1">Vivek Singh</h5>
           <p class="text-center mb-2">Founder & Chairman</p>
           <p class="text-muted small">
@@ -44,7 +44,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="team-card">
-          <img src="Asset/profile.jpg" alt="Team Member 2" class="img-fluid rounded-circle mb-3 shadow">
+          <img src="/Asset/profile.jpg" alt="Team Member 2" class="img-fluid rounded-circle mb-3 shadow">
           <h5 class="fw-bold mb-1">Sunita Devi</h5>
           <p class="text-center mb-2">Project Coordinator</p>
           <p class="text-muted small">
@@ -61,7 +61,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="team-card">
-          <img src="Asset/profile.jpg" alt="Team Member 3" class="img-fluid rounded-circle mb-3 shadow">
+          <img src="/Asset/profile.jpg" alt="Team Member 3" class="img-fluid rounded-circle mb-3 shadow">
           <h5 class="fw-bold mb-1">Amit Kumar</h5>
           <p class="text-center mb-2">Finance & Administration</p>
           <p class="text-muted small">
@@ -78,7 +78,7 @@
 
       <div class="col-md-4 col-sm-6">
         <div class="team-card">
-          <img src="Asset/profile.jpg" alt="Team Member 4" class="img-fluid rounded-circle mb-3 shadow">
+          <img src="/Asset/profile.jpg" alt="Team Member 4" class="img-fluid rounded-circle mb-3 shadow">
           <h5 class="fw-bold mb-1">Priya Sharma</h5>
           <p class="text-center mb-2">Field Officer</p>
           <p class="text-muted small">
